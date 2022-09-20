@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.generic.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.sdet40.TestNGpractice.ScreenshotPractice">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="screenShot"/>
+          <include name="methodSetup1"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+        </methods>
+      </class> <!-- org.sdet40.TestNGpractice.ScreenshotPractice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
